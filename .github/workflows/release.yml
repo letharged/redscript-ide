@@ -21,4 +21,5 @@ jobs:
         with:
           artifacts: "target/release/redscript-ide,target/release/redscript-ide.exe"
           generateReleaseNotes: true
+          omitBodyDuringUpdate: true
           allowUpdates: true
